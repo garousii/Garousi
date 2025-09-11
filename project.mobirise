@@ -1,13 +1,13 @@
 {
   "settings": {
     "name": "Radio Garousi",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
       "titlePreset": "StartM5",
       "styling": {
-        "primaryColor": "#9b96e3",
+        "primaryColor": "#4a3fca",
         "secondaryColor": "#ffffff",
         "successColor": "#3a341c",
         "infoColor": "#320707",
@@ -55,7 +55,7 @@
     "screenshot": "screenshot.png",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/unknown-128x129.png",
-    "mbrsiteDomain": "excgpdgafu",
+    "mbrsiteDomain": "urkjhtjwru",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
