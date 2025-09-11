@@ -599,6 +599,12 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 .alert-danger {
   background-color: #ffea64;
 }
+.mbr-section-btn .btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #9b96e3;
   border-color: #9b96e3;
@@ -606,6 +612,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -632,14 +641,15 @@ a:hover {
   color: #ffffff;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Inter Tight', sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
+  border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.75rem;
@@ -662,6 +672,19 @@ blockquote {
   border-color: #9b96e3;
 }
 /* Forms */
+.mbr-form .input-group-btn .btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn .btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #9b96e3;
@@ -777,6 +800,7 @@ a {
 }
 .cid-uWvlt0iXVw .mbr-section-subtitle {
   color: #ffffff;
+  text-align: center;
 }
 .cid-uW8s3BIlcq {
   padding-top: 15px;
@@ -1109,8 +1133,8 @@ a {
   color: #ffffff;
 }
 .cid-uWvz7IV0XF {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #edefeb;
 }
 .cid-uWvz7IV0XF .mbr-media {
@@ -1191,8 +1215,8 @@ a {
   max-width: 800px;
 }
 .cid-uWvGvSzNM8 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 0rem;
+  padding-bottom: 5rem;
   background-color: #edefeb;
 }
 .cid-uWvGvSzNM8 .mbr-media {
