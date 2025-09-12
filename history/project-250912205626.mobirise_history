@@ -51,11 +51,11 @@
       }
     ],
     "uniqCompNum": 69,
-    "versionPublish": "6.0.6",
+    "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/unknown-128x129.png",
-    "mbrsiteDomain": "ahgw0lu2pd",
+    "mbrsiteDomain": "mms0pokxw0",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -63,9 +63,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-white-label": true
   },
   "pages": {
     "index.html": {
