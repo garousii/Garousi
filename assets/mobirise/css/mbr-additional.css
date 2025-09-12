@@ -773,15 +773,20 @@ a {
     padding-right: 16px;
   }
 }
-.cid-uWwcJIvU7C {
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
+.cid-uWx9fzitW8 {
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #4a3fca;
 }
-.cid-uWwcJIvU7C .mbr-fallback-image.disabled {
+.cid-uWx9fzitW8 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uWwcJIvU7C .mbr-fallback-image {
+.cid-uWx9fzitW8 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -790,11 +795,13 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uWwcJIvU7C .mbr-section-title {
+.cid-uWx9fzitW8 .mbr-section-title {
   color: #ffffff;
 }
-.cid-uWwcJIvU7C .mbr-section-subtitle {
+.cid-uWx9fzitW8 .mbr-section-subtitle {
   color: #ffffff;
+}
+.cid-uWx9fzitW8 .mbr-section-subtitle P {
   text-align: center;
 }
 .cid-uW8s3BIlcq {
@@ -1024,29 +1031,46 @@ a {
 .cid-uW8s3BIlcq #simp ul::-webkit-scrollbar-thumb {
   background-color: #73797f;
 }
-.cid-uW8s6rHiIN {
+.cid-uWx7AsDfu4 {
   padding-top: 1rem;
   padding-bottom: 4rem;
   background-color: #edefeb;
 }
-.cid-uW8s6rHiIN .mbr-overlay {
+.cid-uWx7AsDfu4 .mbr-overlay {
   background-color: #ffffff;
   opacity: 0.4;
 }
-.cid-uW8s6rHiIN form .mbr-section-btn {
+.cid-uWx7AsDfu4 form .mbr-section-btn {
   text-align: center;
   width: 100%;
 }
-.cid-uW8s6rHiIN form .mbr-section-btn .btn {
+.cid-uWx7AsDfu4 form .mbr-section-btn .btn {
   display: inline-flex;
 }
 @media (max-width: 991px) {
-  .cid-uW8s6rHiIN form .mbr-section-btn .btn {
+  .cid-uWx7AsDfu4 form .mbr-section-btn .btn {
     width: 100%;
   }
 }
-.cid-uW8s6rHiIN .content-head {
+.cid-uWx7AsDfu4 .content-head {
   max-width: 800px;
+}
+.cid-uWAbhBhW96 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-uWAbhBhW96 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uWAbhBhW96 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-uWvFwj3L6q {
   padding-top: 0rem;
