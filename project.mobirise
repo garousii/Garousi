@@ -55,7 +55,7 @@
     "screenshot": "screenshot.png",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/garousi-128x128.png",
-    "mbrsiteDomain": "6gaplcx7iq",
+    "mbrsiteDomain": "p04ktdsvab",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -63,7 +63,9 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -108,7 +110,7 @@
               "color": "#ffffff"
             },
             ".mbr-section-subtitle": {
-              "color": "#ffa600"
+              "color": "#ffffff"
             },
             ".mbr-section-subtitle P": {
               "text-align": "center"
