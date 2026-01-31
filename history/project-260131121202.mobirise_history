@@ -64,7 +64,10 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "publishType": "local",
+    "mbrsite": "mbrsite://%7B%22id%22%3A2253079%2C%22domain%22%3A%22wizuzvjodh.mobirisesite.com%22%7D",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
