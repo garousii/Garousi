@@ -63,9 +63,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-white-label": true,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-white-label": true
   },
   "pages": {
     "index.html": {
